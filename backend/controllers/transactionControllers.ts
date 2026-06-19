@@ -7,7 +7,9 @@ const createTransaction = async (
 ): Promise<void> => {
   try {
     const { description, amount, type, category } = req.body;
-
+    if (!description || !amount || !type || !category) {
+      throw new Error("fill all the given requiremnets");
+    }
     const transaction = await Transaction.create({
       description,
       amount,
