@@ -1,8 +1,7 @@
 {
-  "name": "backend",
+  "name": "expense-tracker Made by Adeel💖",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "this is a expense tracker",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
