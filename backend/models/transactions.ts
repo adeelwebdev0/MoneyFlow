@@ -1,5 +1,5 @@
 import mongoose, { Schema, Document, Model } from "mongoose";
-
+// these are types for ts of transaction model
 export interface ITransaction extends Document {
   description: string;
   amount: number;
